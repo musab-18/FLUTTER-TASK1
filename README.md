@@ -1,16 +1,17 @@
-# intern_1
+# intern_1 - Basic Login App
 
-A new Flutter project.
+A Flutter application demonstrating a basic Login UI with form validation and navigation.
+
+## Features
+- **Login Screen**: Built using `Column`, `Row`, and `Container`.
+- **Form Fields**: Two `TextFormFields` for Email and Password.
+- **Validation**: 
+  - Email format validation using Regex.
+  - Non-empty validation for the Password field.
+- **Navigation**: Uses `Navigator.push()` to transition from Login Screen to Home Screen.
+- **UI Components**: Includes a `TextButton` for login and a `Text` widget for "Forgot Password?".
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository.
+2. Run `flutter pub get` to install dependencies.
+3. Run the app using `flutter run`.
