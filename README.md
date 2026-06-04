@@ -1,4 +1,4 @@
-# intern_1 - Basic Login App
+# TASK 1 - Basic Login App
 
 A Flutter application demonstrating a basic Login UI with form validation and navigation.
 
